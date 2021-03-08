@@ -70,7 +70,7 @@ $(document).ready(function(){
             
         let order = new Order(size,crust,toppings,number,total);
         outpuTag.innerHTML = `Your order is as follows: Size: ${order.size}, Crust: ${order.crust},
-        Toppings: ${order.toppings}, Quantity: ${order.number}, Total: ${order.total}`   
+        Toppings: ${order.toppings}, Quantity: ${order.number}, Total: ${order.total} Fcfa`   
     });
 
     $("#pickUp").click(function(){
