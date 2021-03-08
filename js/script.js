@@ -73,9 +73,19 @@ $(document).ready(function(){
         Toppings: ${order.toppings}, Quantity: ${order.number}, Total: ${order.total} Fcfa`   
     });
 
+    function makeid(length) {
+        var result           = '';
+        var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var charactersLength = characters.length;
+        for ( var i = 0; i < length; i++ ) {
+           result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    }
+    let id = makeid(8)
     $("#pickUp").click(function(){
         alert('We will be waiting.')
-        
+        alert(`Here is your customer ID --> ${id}`);
     });
 
     $("#deliver").click(function(){
