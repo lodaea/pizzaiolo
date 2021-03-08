@@ -21,7 +21,7 @@
     </nav>
     <div class="container-fluid text-center" id="form">
         <h1 class="bg-success">Welcome to Pizzaiolo!!</h1>
-        <form id="myForm">
+        <form id="myForm" method="POST">
             <h2>Place your order</h2>
             <div class="form-group">
             <label for="Size select"></label>
@@ -62,7 +62,7 @@
                     <label for="checkbox-5">BBQ meat</label>
                 </fieldset>  
             </div>            
-            <input type="submit" value="Checkout" class="btn btn-outline-success" id="checkout">
+            <input type="submit" onclick="return getData()" value="Checkout" class="btn btn-outline-success" id="checkout">
             <p>
                 <span id="resume"></span>
             </p>
@@ -81,7 +81,6 @@
                 <input class="form-control" type="submit" value="Pick up" id="pickUp">
             </div>
         </div>
-
     </div>
 
         
