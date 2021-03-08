@@ -4,12 +4,18 @@ body{
     background-size: cover;
 }
 form{
-    margin: 10%;
+    margin-top: 5%;
 }
 #myForm{
     /*background-image: url(../images/photo-1513104890138-7c749659a591.jpeg);*/
     background-color: rgba(244, 165, 96, 0.719);
     padding: 20px;
     border-radius: 10%;
+}
+.myFooter{
+    background-color: black;
+    margin-top: 2%;
+    color: blanchedalmond;
+    text-align: center;
 
 }
