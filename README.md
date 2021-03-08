@@ -2,9 +2,9 @@
 #### This is a web app to order pizza online, 08/03/2021
 #### By **Anais Kiam**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+Order pizza anywhere using this Pizzaiolo web app. You can have it delivered to you or come pick it up yourself. At your convenience.
 ## Setup/Installation Requirements
-Nothing reauired but a good internet connection.
+Nothing required but a good internet connection.
 ## Known Bugs
 The app is incomplete.
 ## Technologies Used
