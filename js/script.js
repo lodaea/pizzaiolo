@@ -6,6 +6,8 @@ function Order(size,crust,toppings,number,total){
     this.total = total;
 }
 
+let outpuTag = document.getElementById('resume')
+
 $(document).ready(function(){
     $("#checkout").click(function(event){
         let size = $("#size option:selected").val();
@@ -63,7 +65,7 @@ $(document).ready(function(){
         total = (price + price1 + toppingPrice) * quantity;
             
         let order = new Order(size,crust,toppings,number,total);
-
+        outpuTag.innerHTML = order
         
     });
 });
