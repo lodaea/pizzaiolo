@@ -41,36 +41,45 @@
                 </select>
             </div>
             <div class="form-group">
+                <label for="desired number of pizza"></label>
+                <input class="form-control" type="text" id="pizzaNum" placeholder="How many pizzas do you want?" required>
+            </div>
+            <div class="form-group">
                 <label for="Toppings select"></label> 
                 <strong>Choose your topping(s)</strong>
                 <br>
                 <fieldset>
                     <label for="checkbox-1">Onions</label>
-                    <input type="checkbox" name="checkbox-1" id="toppings">
+                    <input type="checkbox" name="checkbox" id="toppings">
                     <label for="checkbox-2">Pineapple</label>
-                    <input type="checkbox" name="checkbox-2" id="toppings">
+                    <input type="checkbox" name="checkbox" id="toppings">
                     <label for="checkbox-3">Pepperoni</label>
-                    <input type="checkbox" name="checkbox-3" id="toppings">
+                    <input type="checkbox" name="checkbox" id="toppings">
                     <label for="checkbox-4">Mushroom</label>
-                    <input type="checkbox" name="checkbox-4" id="toppings">
+                    <input type="checkbox" name="checkbox" id="toppings">
                     <label for="checkbox-5">BBQ meat</label>
-                    <input type="checkbox" name="checkbox-5" id="toppings">
+                    <input type="checkbox" name="checkbox" id="toppings">
                 </fieldset>  
-            </div>
-            <div class="form-group">
-                <label for="desired number of pizza"></label>
-                <input class="form-control" type="text" id="pizzaNum" placeholder="How many pizzas do you want?" required>
-            </div>
-            <div class="form-group">
-                <label for="delivery"></label>
-                <input class="form-control" type="submit" value="Delivery" id="deliver">
-                <label for="delivery"></label>
-                <input class="form-control" type="submit" value="Pick up" id="pickUp">
-            </div>
+            </div>            
+            <input type="submit" value="Checkout" class="btn btn-outline-success" id="#checkout">
             <p>
                 <span id="resume"></span>
             </p>
         </form>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <label for="delivery"></label>
+                <input class="form-control" type="submit" value="Delivery" id="deliver">
+            </div>
+            <div class="col-md-4">
+                <label for="delivery"></label>
+                <input class="form-control" type="submit" value="Delivery" id="deliver">
+            </div>
+        </div>
+
     </div>
 
         

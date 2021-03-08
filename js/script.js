@@ -1,15 +1,23 @@
-function Order(size,crust,toppings,number,deliver){
+function Order(size,crust,toppings,number,total){
     this.size = size;
     this.crust = crust;
     this.toppings = toppings;
     this.number = number;
-    this.deliver = deliver;
+    this.total = total;
 }
 
-/*function del(){
+$(document).ready(function(){
+    $("#checkout").click(function(event){
+        let size = $("#size option:selected").val();
+        let crust = $("#crust option:selected").val();
+        let number = $("#pizzaNum").val();
+        let topping = [];
+        $("input[name='checkbox']").each(function (index, obj)
+        });
+   
+        let price, total;
+     
+     
 
-}
-
-function getPrice(){
 
 }
