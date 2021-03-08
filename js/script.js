@@ -61,7 +61,7 @@ $(document).ready(function(){
             toppingPrice = 3000;
         }
 
-        let quantity = document.getElementById('number').value
+        let quantity = document.getElementById('pizzaNum').value
         total = (price + price1 + toppingPrice) * quantity;
         console.log(total)
             
