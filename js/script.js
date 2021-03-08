@@ -13,8 +13,11 @@ $(document).ready(function(){
         let size = $("#size option:selected").val();
         let crust = $("#crust option:selected").val();
         let number = $("#pizzaNum").val();
-        let topping  = [];
-        $("input[name='checkbox']").each(function (index, obj){});
+        let toppings = [];
+        $.each($('input[name="check"]:checked'), (function(){
+            toppings.push($(this).val())    
+        }));
+        toppings.join(',')
    
         let price, price1, total;  
 
@@ -66,7 +69,8 @@ $(document).ready(function(){
         console.log(total)
             
         let order = new Order(size,crust,toppings,number,total);
-        outpuTag.innerHTML = total
+        outpuTag.innerHTML = `Your order is as follows: Size: ${order.size}, Crust: ${order.crust},
+        Toppings: ${order.toppings}, Quantity: ${order.number}, Total: ${order.total}`
 
         
     });
