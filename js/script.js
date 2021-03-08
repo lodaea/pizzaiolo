@@ -63,9 +63,11 @@ $(document).ready(function(){
 
         let quantity = document.getElementById('number').value
         total = (price + price1 + toppingPrice) * quantity;
+        console.log(total)
             
         let order = new Order(size,crust,toppings,number,total);
-        outpuTag.innerHTML = order
+        outpuTag.innerHTML = total
+
         
     });
 });
