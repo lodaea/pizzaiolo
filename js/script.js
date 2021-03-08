@@ -75,5 +75,13 @@ $(document).ready(function(){
 
     $("#pickUp").click(function(){
         alert('We will be waiting.')
+        
+    });
+
+    $("#deliver").click(function(){
+        var name = prompt("Enter your name");
+        var telNum = prompt("Enter yourphone number");
+        var address = prompt("Enter your address");
+        alert('Your order will be delivered to your location');
     });
 })

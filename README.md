@@ -6,7 +6,7 @@ Order pizza anywhere using this Pizzaiolo web app. You can have it delivered to 
 ## Setup/Installation Requirements
 Nothing required but a good internet connection.
 ## Known Bugs
-The app is incomplete.
+None known.
 ## Technologies Used
 - HTML
 - CSS
