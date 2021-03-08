@@ -6,6 +6,10 @@ function Order(size,crust,toppings,number,deliver){
     this.deliver = deliver;
 }
 
+/*function del(){
+
+}
+
 function getPrice(){
-    
+
 }
